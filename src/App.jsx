@@ -11,7 +11,7 @@ function App() {
 
   useEffect(() => {
     const storedTodos = JSON.parse(localStorage.getItem("todos"));
-    if (storedTodos.length > 1) {
+    if (storedTodos) {
       dispatch(setTodos(storedTodos));
     }
   }, [dispatch]);

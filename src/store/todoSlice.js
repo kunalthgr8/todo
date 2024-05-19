@@ -3,9 +3,9 @@ import { createSlice, nanoid } from "@reduxjs/toolkit";
 const initialState = {
   todos: [
     {
-      // id: 1,
-      // title: "Hello World",
-      // content: "This is a sample todo",
+      id: 1,
+      title: "Hello World",
+      content: "This is a sample todo",
     },
   ],
 };
